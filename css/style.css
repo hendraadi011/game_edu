@@ -13,6 +13,7 @@
 
 html {
     font-family: "poppins", sans-serif;
+    overflow: hidden;
 }
 @font-face {
   font-family: august;
