@@ -10,14 +10,9 @@
     border: none;
     text-decoration: none;
 }
-body {
-  box-sizing: border-box;
-  overflow: hidden;
-}
+
 html {
     font-family: "poppins", sans-serif;
-    box-sizing: border-box;
-  overflow: hidden;
 }
 @font-face {
   font-family: august;
@@ -58,7 +53,7 @@ html {
   color: #fff;
   padding: 5px 20px;
   font-weight: bold;
-  background: rgb(209, 10, 10);
+  background: #BB2525;
   text-align: center;
   border-radius: 10px;
   margin: 0 1rem;
@@ -66,6 +61,7 @@ html {
 
 .navbar .navbar-nav a:hover {
   color: var(--primary);
+  border-color: #921919;
 }
 /* .navbar .navbar-nav a:after {
   content: "";
@@ -89,10 +85,11 @@ html {
     background-image: url('../img/hero2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 6;
     position: relative;
+    justify-content: center;
+    align-items: center;
 }
-.hero::after{
+/* .hero::after{
     content: "";
     display: block;
     position: absolute;
@@ -100,7 +97,7 @@ html {
     height: 30%;
     bottom: 0;
     background: linear-gradient(0deg, rgba(1,1,3) 8%,rgba(255,255,255,0) 55%);
-}
+} */
 
 .hero .content {
     padding: 1.4rem 7%;
@@ -130,12 +127,155 @@ html {
     display: inline-block;
     margin-top: 1rem;
     padding: 1rem 3rem;
-    background: linear-gradient(to top, #008000 30%, #fff040 100%);
+    /* background: linear-gradient(to top, #008000 30%, #fff040 100%); */
+    background-color: #BB2525;
     font-size: 1.8rem;
     color: #fff;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.19);
   }
+
+  .hero .contact .cta:hover{
+    background-color: #691212;
+  }
+
+
+  /* --------MATERI------------ */
+
+  .slide-container {
+    max-width: 1100px; 
+    width: 100%;
+    padding: 15px;
+  }
+  .slide-content {
+    margin: 40px 40px;
+    /* padding: 45px 20px; */
+    /* background-color: red; */
+    overflow: hidden;
+    border-radius: 25px;
+  }
+
+  /* .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+  .card {
+    border-radius: 25px;
+    background-color: #fff;
+  }
+  .image-content,
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 14px;
+    align-items: center;
+  }
+  .image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ee9322;
+    background-image: url('https://img.freepik.com/free-vector/children-school-field-trip_18591-51140.jpg?w=740&t=st=1697179888~exp=1697180488~hmac=8f10c25be021c18f592843a426da3cb82d621920cbf8e86b1b9738de6cd01b2e');
+    top: 0;
+    background-size: cover;
+    border-radius: 25px 25px 0 25px;
+  }
+
+  .overlay::before,
+  .overlay::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    bottom: -40px;
+    right: 0;
+    /* background-color: #ee9322; */
+  }
+  .overlay::after {
+    content: "";
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+  }
+  .card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+  }
+  .card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #259200ff;
+  }
+  .name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+  }
+  .description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+  }
+  .button {
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 6px 16px;
+    background-color: #259200ff;
+    margin: 14px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: rgb(31, 121, 1);
+  }
+  .swiper-btn {
+    color: #ee9322;
+    transition: color 0.3s ease;
+  }
+  .swiper-btn:hover {
+    color: #ce7d19;
+  }
+  .swiper-btn::before,
+  .swiper-btn::after {
+    font-size: 40px;
+  }
+  .swiper-button-next {
+    right: 0;
+  }
+  .swiper-button-prev {
+    left: 0;
+  }
+  .swiper-pagination-bullet {
+    color: #ee9322;
+    background-color: #ee9322;
+  }
+
+
+
+
   
 /* Media Queries */
 @media (max-width: 1366px) {
