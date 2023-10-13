@@ -51,3 +51,10 @@ document.addEventListener('click', function(e) {
         navbarNav.classList.remove('active');
     }
 })
+
+
+const materiSatu = () => {
+    // e.preventDefault();
+    // window.location('materi/materi-satu.html')
+    window.location.href = '../materi/materi-satu.html'
+}
