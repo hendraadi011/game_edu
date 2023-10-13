@@ -16,6 +16,8 @@ body {
 }
 html {
     font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+  overflow: hidden;
 }
 @font-face {
   font-family: august;
