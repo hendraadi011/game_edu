@@ -21,23 +21,23 @@ document.addEventListener('click', function(e) {
 })
 
 
-document.getElementById("link").addEventListener("click", function(event) {
-    event.preventDefault(); // Menghentikan tindakan bawaan dari elemen <a>
+// document.getElementById("link").addEventListener("click", function(event) {
+//     event.preventDefault(); // Menghentikan tindakan bawaan dari elemen <a>
    
-    const element = document.documentElement;
+//     const element = document.documentElement;
     
-    if (element.requestFullscreen) {
-        element.requestFullscreen();
-    } else if (element.mozRequestFullScreen) { /* Firefox */
-        element.mozRequestFullScreen();
-    } else if (element.webkitRequestFullscreen) { /* Chrome, Safari, and Opera */
-        element.webkitRequestFullscreen();
-    } else if (element.msRequestFullscreen) { /* IE/Edge */
-        element.msRequestFullscreen();
-    }
+//     if (element.requestFullscreen) {
+//         element.requestFullscreen();
+//     } else if (element.mozRequestFullScreen) { /* Firefox */
+//         element.mozRequestFullScreen();
+//     } else if (element.webkitRequestFullscreen) { /* Chrome, Safari, and Opera */
+//         element.webkitRequestFullscreen();
+//     } else if (element.msRequestFullscreen) { /* IE/Edge */
+//         element.msRequestFullscreen();
+//     }
 
-    // window.location.href = 'game.html'; 
+//     // window.location.href = 'game.html'; 
 
    
-  });
+//   });
   

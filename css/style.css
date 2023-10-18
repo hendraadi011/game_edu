@@ -9,11 +9,17 @@
     outline: none;
     border: none;
     text-decoration: none;
+    
 }
 
 html {
     font-family: "poppins", sans-serif;
     overflow: hidden;
+}
+body {
+  background-image: url('../img/hero2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 @font-face {
   font-family: august;
@@ -83,13 +89,27 @@ html {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url('../img/hero2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
     position: relative;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    /* flex-direction: column; */
+}
+.hero1{
+  
+  display: flex;
+  align-items: center;
+  /* background-image: url('../img/7919541.ai.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+.hero1 img{
+  width: 50%;
+  height: 50%;
+  top: 100px;
 }
 /* .hero::after{
     content: "";
@@ -287,6 +307,10 @@ html {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 7px 5px rgba(0,0,0,0.3);
+  }
+  .materi h1 {
+    text-align: center;
+    font-size: 20px;
   }
   .card-materi {
     background: #fff;

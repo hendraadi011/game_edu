@@ -3,28 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
+    <title>Materi</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+
 </head>
 <body>
-    <div class="container">
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <a href="#" class="navbar-logo"><span class="satu">
+            <img src="img/bitmap.png" alt="">
+        </a>
+        <div class="navbar-nav">
+            <a href="index.html">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="materi.html">MATERI</a>
+            <a href="#petunjuk">PENTUNJUK</a>
+        </div>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </nav>
 
+    <!-- navbar end -->
+
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+    
+    <div class="swiper slide-container ">
+        <h1>Pilih Game</h1>
+        <div class="slide-content">
+          
+                <div class="card-wrapper swiper-wrapper">
+                 
+                    <div class="swiper-slide">
+                        <div class="card-utama">
+                        <div class="card swiper-slide">
+                       
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1697179379~exp=1697179979~hmac=5aba5678374515fe825867d2731f02c11ed0c37d53205c5e4b565ad77f6c4b8c" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Felly Dell</h2>
+                                <p class="description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, dicta?
+                                </p>
+                                <a class="button" href="https://main--merry-zuccutto-fac717.netlify.app/">View More</a>
+                            </div>
+                        </div>  
+                        </div> 
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-utama">
+                        <div class="card swiper-slide">
+                            
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1697179379~exp=1697179979~hmac=5aba5678374515fe825867d2731f02c11ed0c37d53205c5e4b565ad77f6c4b8c" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Felly Dell</h2>
+                                <p class="description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, dicta?
+                                </p>
+                                <button class="button">View More</button>
+                            </div>
+                        </div>  
+                        </div> 
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-utama">
+                        <div class="card swiper-slide">
+                            
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1697179379~exp=1697179979~hmac=5aba5678374515fe825867d2731f02c11ed0c37d53205c5e4b565ad77f6c4b8c" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Felly Dell</h2>
+                                <p class="description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, dicta?
+                                </p>
+                                <button class="button">View More</button>
+                            </div>
+                        </div>  
+                        </div> 
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card-utama">
+                        <div class="card swiper-slide">
+                            
+                            <div class="image-content">
+                                <span class="overlay"></span>
+                                <div class="card-image">
+                                    <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740&t=st=1697179379~exp=1697179979~hmac=5aba5678374515fe825867d2731f02c11ed0c37d53205c5e4b565ad77f6c4b8c" alt="" class="card-img">
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="name">Felly Dell</h2>
+                                <p class="description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus, dicta?
+                                </p>
+                                <button class="button">View More</button>
+                            </div>
+                        </div>  
+                        </div> 
+                    </div>
+                  
+         
+                </div>
+            
+        </div>
+        <div class="swiper-button-next swiper-btn"></div>
+        <div class="swiper-button-prev swiper-btn"></div>
+        <div class="swiper-pagination"></div>
     </div>
+    </section>
+    <!-- hero section end -->
+
+    
+
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const element = document.documentElement;
-
-        if (element.requestFullscreen) {
-            element.requestFullscreen();
-        } else if (element.mozRequestFullScreen) {
-            element.mozRequestFullScreen();
-        } else if (element.webkitRequestFullscreen) {
-            element.webkitRequestFullscreen();
-        } else if (element.msRequestFullscreen) {
-            element.msRequestFullscreen();
-        }
-        });
-
+        feather.replace()
     </script>
-    <script src="js/script.js"></script> 
+    
+
+    <script src="js/swiper-bundle.min.js"></script>
+      <!-- my javascript -->
+      <script src="js/materi.js"></script>
 </body>
 </html>
