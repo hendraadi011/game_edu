@@ -106,6 +106,15 @@ body {
   align-items: center;
   /* flex-direction: column; */
 }
+.hero .h {
+  font-size: 40px;
+  color: black;
+  padding: 16px;
+  border-radius: 10px;
+
+  background: #fff;
+
+}
 .hero1 img{
   width: 50%;
   height: 50%;
