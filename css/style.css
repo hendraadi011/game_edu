@@ -1,38 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Stick&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Stick&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&family=Stick&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
 }
 
 html {
-    font-family: "poppins", sans-serif;
-    overflow: hidden;
+  font-family: "poppins", sans-serif;
+  overflow: hidden;
 }
 body {
-  background-image: url('../img/hero2.jpg');
+  background-image: url("../img/hero2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 @font-face {
   font-family: august;
-  src: url('font/Hey\SuperMario256.ttf');
+  src: url("font/Hey\SuperMario256.ttf");
 }
-.navbar-logo span{
-  font-family: 'Pixelify Sans', sans-serif;
+.navbar-logo span {
+  font-family: "Pixelify Sans", sans-serif;
   color: #fff;
   font-size: 5rem;
   font-weight: 800;
 }
-.navbar-logo{
-  font-family: 'Pixelify Sans', sans-serif;
+.navbar-logo {
+  font-family: "Pixelify Sans", sans-serif;
   color: #fff;
   font-size: 2rem;
   font-weight: 800;
@@ -40,18 +38,17 @@ body {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.4rem 7%;
-    position: fixed;
-    top:0 ;
-    left: 0;
-    right: 0;
-    font-family: 'Pixelify Sans', sans-serif;
-   
-    z-index: 9999;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: "Pixelify Sans", sans-serif;
+
+  z-index: 9999;
 }
 
 .navbar .navbar-nav a {
@@ -60,7 +57,7 @@ body {
   color: #fff;
   padding: 5px 20px;
   font-weight: bold;
-  background: #BB2525;
+  background: #bb2525;
   text-align: center;
   border-radius: 10px;
   margin: 0 1rem;
@@ -83,19 +80,17 @@ body {
   display: none;
 }
 
-
 /* Hero Section */
-.hero{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    /* flex-direction: column; */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
 }
-.hero1{
-  
+.hero1 {
   display: flex;
   align-items: center;
   /* background-image: url('../img/7919541.ai.png'); */
@@ -115,9 +110,8 @@ body {
   margin: 10px;
 
   background: #fff;
-
 }
-.hero1 img{
+.hero1 img {
   width: 50%;
   height: 50%;
   top: 100px;
@@ -133,250 +127,240 @@ body {
 } */
 
 .hero .content {
-    padding: 1.4rem 7%;
-    max-width: 60rem;
+  padding: 1.4rem 7%;
+  max-width: 60rem;
 }
 
 .hero .content h1 {
-   font-family: 'Pixelify Sans', sans-serif;
-    font-size: 4rem;
-    color: #fff;
-    text-shadow: 1px 1px 3px rgba(1,1,3, 0.5);
-    line-height: 1.2;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
 }
 
 .hero .content p {
-  font-family: 'Pixelify Sans', sans-serif;
-    font-size: 1.6rem;
-    margin-top: 0.5rem;
-    line-height: 1.4;
-    font-weight: 50;
-    text-shadow: 1px 1px 3px rgba(1,1,2,0,5);
-    mix-blend-mode: difference;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  font-weight: 50;
+  text-shadow: 1px 1px 3px rgba(1, 1, 2, 0, 5);
+  mix-blend-mode: difference;
 }
 
 .hero .content .cta {
-  font-family: 'Pixelify Sans', sans-serif;
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 1rem 3rem;
-    /* background: linear-gradient(to top, #008000 30%, #fff040 100%); */
-    background-color: #BB2525;
-    font-size: 1.8rem;
-    color: #fff;
-    border-radius: 0.5rem;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.19);
-  }
-
-  .hero .contact .cta:hover{
-    background-color: #691212;
-  }
-
-
-  /* --------MATERI------------ */
-
-  .slide-container {
-    max-width: 1100px; 
-    width: 100%;
-    padding: 15px;
-  }
-  .slide-content {
-    margin: 40px 40px;
-    /* padding: 45px 20px; */
-    /* background-color: red; */
-    overflow: hidden;
-    border-radius: 25px;
-  }
-
-  .card-utama {
-    background-color: #dfdfdf;
-    padding: 10px;
-    border-radius: 25px;
-    background-image: url('https://img.freepik.com/premium-vector/wooden-texture_23-2147511826.jpg?1&w=740');
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-height: 50%;
-    
-  }
-
-  .card {
-    border-radius: 25px;
-    background-color: #fff;
-    /* box-shadow: 0px 10px 1px  rgba(0,0,0,0.3) inset; */
-    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
-    box-shadow: 5px 10px 20px rgba(0,0,0,0.2) inset;
-    height: 100%; 
-  }
-  .image-content,
-  .card-content {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 14px;
-    align-items: center;
-  }
-  .image-content {
-    position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
-  }
-
-  .overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    /* background-color: #ee9322; */
-    /* background-image: url('https://img.freepik.com/free-vector/children-school-field-trip_18591-51140.jpg?w=740&t=st=1697179888~exp=1697180488~hmac=8f10c25be021c18f592843a426da3cb82d621920cbf8e86b1b9738de6cd01b2e'); */
-    top: 0;
-    background-size: cover;
-    border-radius: 25px 25px 0 25px;
-  }
-
-  .overlay::before,
-  .overlay::after {
-    content: "";
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    bottom: -40px;
-    right: 0;
-    /* background-color: #ee9322; */
-  }
-  .overlay::after {
-    content: "";
-    border-radius: 0 25px 0 0;
-    /* background-color: #fff; */
-  }
-  .card-image {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background: #fff;
-    padding: 3px;
-  }
-  .card-image .card-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    /* border: 4px solid #259200ff; */
-  }
-  .name {
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
-  }
-  .description {
-    font-size: 14px;
-    color: #707070;
-    text-align: center;
-  }
-  .button {
-    border: none;
-    font-size: 16px;
-    color: #fff;
-    padding: 6px 16px;
-    background-color: #BB2525;
-    margin: 14px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-    cursor: pointer;
-  }
-  .button:hover {
-    background-color: #691212;
-  }
-  .swiper-btn {
-    color: #ee9322;
-    transition: color 0.3s ease;
-  }
-  .swiper-btn:hover {
-    color: #ce7d19;
-  }
-  .swiper-btn::before,
-  .swiper-btn::after {
-    font-size: 40px;
-  }
-  .swiper-button-next {
-    right: 0;
-    
-  }
-  .swiper-button-prev {
-    left: 0;
-  }
-  .swiper-pagination-bullet {
-    color: #ee9322;
-    background-color: #ee9322;
-  }
-
-
-  /* conten materi */
-
-  .materi {
-    width: 90%;
-    /* background-color: red; */
-    background-image: url('https://img.freepik.com/free-vector/wooden-texture-background_1380-1.jpg?w=740&t=st=1697194223~exp=1697194823~hmac=dcef487a8dceb10a4ab81a280a477f066cae6188f2b5a518dd357277aaf01ab1');
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 5px 7px 5px rgba(0,0,0,0.3);
-  }
-  .materi h1 {
-    text-align: center;
-    font-size: 20px;
-  }
-  .card-materi {
-    background: #fff;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    padding: 20px;
-    border-radius: 10px;
-  }
-
-  .content-materi p {
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  .tombol-kembali {
-    background-image: url('https://img.freepik.com/premium-vector/wooden-texture_23-2147511826.jpg?1&w=740');
-    background-size: cover;
-    margin-top: 50px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 5px solid rgb(100, 49, 13);
-  }
-
-  .tombol-kembali a {
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    transition: all 0.1s ease;
-  }
-
-  .tombol-kembali a:hover{
-    padding: 10px 22px;
-  }
-
-
-
-
-  
-/* Media Queries */
-@media (max-width: 1366px) {
-    html {
-        font-size: 75%;
-    }
-    
+  font-family: "Pixelify Sans", sans-serif;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+  /* background: linear-gradient(to top, #008000 30%, #fff040 100%); */
+  background-color: #bb2525;
+  font-size: 1.8rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.19);
 }
 
+.hero .contact .cta:hover {
+  background-color: #691212;
+}
+
+/* --------MATERI------------ */
+
+.slide-container {
+  max-width: 1100px;
+  width: 100%;
+  padding: 15px;
+}
+.slide-content {
+  margin: 40px 40px;
+  /* padding: 45px 20px; */
+  /* background-color: red; */
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.card-utama {
+  background-color: #dfdfdf;
+  padding: 10px;
+  border-radius: 25px;
+  background-image: url("https://img.freepik.com/premium-vector/wooden-texture_23-2147511826.jpg?1&w=740");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 50%;
+}
+
+.card {
+  border-radius: 25px;
+  background-color: #fff;
+  /* box-shadow: 0px 10px 1px  rgba(0,0,0,0.3) inset; */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 10px 20px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2) inset;
+  height: 100%;
+}
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+  align-items: center;
+}
+.image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* background-color: #ee9322; */
+  /* background-image: url('https://img.freepik.com/free-vector/children-school-field-trip_18591-51140.jpg?w=740&t=st=1697179888~exp=1697180488~hmac=8f10c25be021c18f592843a426da3cb82d621920cbf8e86b1b9738de6cd01b2e'); */
+  top: 0;
+  background-size: cover;
+  border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  bottom: -40px;
+  right: 0;
+  /* background-color: #ee9322; */
+}
+.overlay::after {
+  content: "";
+  border-radius: 0 25px 0 0;
+  /* background-color: #fff; */
+}
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  /* border: 4px solid #259200ff; */
+}
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description {
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button {
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  padding: 6px 16px;
+  background-color: #bb2525;
+  margin: 14px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #691212;
+}
+.swiper-btn {
+  color: #ee9322;
+  transition: color 0.3s ease;
+}
+.swiper-btn:hover {
+  color: #ce7d19;
+}
+.swiper-btn::before,
+.swiper-btn::after {
+  font-size: 40px;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper-button-prev {
+  left: 0;
+}
+.swiper-pagination-bullet {
+  color: #ee9322;
+  background-color: #ee9322;
+}
+
+/* conten materi */
+
+.materi {
+  width: 90%;
+  /* background-color: red; */
+  background-image: url("https://img.freepik.com/free-vector/wooden-texture-background_1380-1.jpg?w=740&t=st=1697194223~exp=1697194823~hmac=dcef487a8dceb10a4ab81a280a477f066cae6188f2b5a518dd357277aaf01ab1");
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.3);
+}
+.materi h1 {
+  text-align: center;
+  font-size: 20px;
+}
+.card-materi {
+  background: #fff;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.content-materi p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.tombol-kembali {
+  background-image: url("https://img.freepik.com/premium-vector/wooden-texture_23-2147511826.jpg?1&w=740");
+  background-size: cover;
+  margin-top: 50px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 5px solid rgb(100, 49, 13);
+}
+
+.tombol-kembali a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.1s ease;
+}
+
+.tombol-kembali a:hover {
+  padding: 10px 22px;
+}
+
+/* Media Queries */
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
 
 @media (max-width: 758px) {
   html {
     font-size: 62.5%;
   }
 
-  #gambar-siswa{
+  #gambar-siswa {
     display: none;
   }
   #hamburger-menu {
@@ -446,25 +430,38 @@ body {
     right: 2rem;
   }
 
-  .modal .modal-content{
+  .modal .modal-content {
     flex-wrap: wrap;
   }
 }
 
-
-
-
 /* hp */
 @media (max-width: 450px) {
-    html {
-      font-size: 75%;
-    }
-    /* .menu .row {
+  html {
+    font-size: 75%;
+  }
+  /* .menu .row {
       flex-wrap: wrap;
     } */
-  
-    .contact .row .map {
-      width: 35rem;
-      height: 35rem;
-    }
+
+  .contact .row .map {
+    width: 35rem;
+    height: 35rem;
+  }
+}
+
+/* Add Animasi */
+
+@keyframes leaves {
+  0%,
+  100% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+.animasi-scale {
+  animation: leaves 3s infinite;
 }
