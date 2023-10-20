@@ -253,6 +253,20 @@ body {
   border-radius: 50%;
   /* border: 4px solid #259200ff; */
 }
+
+.card-image-game {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background: #fff;
+  padding: 3px;
+}
+.card-image-game .card-img-game {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  /* border: 4px solid #259200ff; */
+}
 .name {
   font-size: 18px;
   font-weight: 500;
@@ -458,10 +472,15 @@ body {
     transform: scale(0.9);
   }
   50% {
-    transform: scale(1);
+    transform: scale(1.1);
   }
 }
 
 .animasi-scale {
   animation: leaves 3s infinite;
+}
+
+.animasi-scale:hover {
+  animation: none;
+  transform: scale(1);
 }
