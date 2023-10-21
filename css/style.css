@@ -472,7 +472,7 @@ body {
     transform: scale(0.9);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1);
   }
 }
 
@@ -482,5 +482,20 @@ body {
 
 .animasi-scale:hover {
   animation: none;
-  transform: scale(1);
+  transform: scale(0.9);
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-7%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: none;
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+.animasi-bounce {
+  animation: bounce 1s infinite;
 }
