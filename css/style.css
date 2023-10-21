@@ -51,13 +51,21 @@ body {
   z-index: 9999;
 }
 
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
 .navbar .navbar-nav a {
   display: inline-block;
   font-size: 1.3rem;
   color: #fff;
   padding: 5px 20px;
   font-weight: bold;
-  background: #bb2525;
+  background: linear-gradient(to top, #31862bff 10%, rgb(186, 254, 133) 100%);
+  border: 2px solid white;
   text-align: center;
   border-radius: 10px;
   margin: 0 1rem;
@@ -65,7 +73,7 @@ body {
 
 .navbar .navbar-nav a:hover {
   color: var(--primary);
-  border-color: #921919;
+  border-color: gray;
 }
 /* .navbar .navbar-nav a:after {
   content: "";
@@ -161,11 +169,12 @@ body {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
-  /* background: linear-gradient(to top, #008000 30%, #fff040 100%); */
-  background-color: #bb2525;
+  background: linear-gradient(to top, #31862bff 10%, rgb(186, 254, 133) 100%);
+  /* background-color: #bb2525; */
   font-size: 1.8rem;
   color: #fff;
-  border-radius: 0.5rem;
+  border: 2px solid white;
+  border-radius: 50px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.19);
 }
 
@@ -407,6 +416,7 @@ body {
 
   .navbar .navbar-nav a {
     color: var(--bg);
+
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
