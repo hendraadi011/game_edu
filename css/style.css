@@ -69,6 +69,8 @@ body {
   text-align: center;
   border-radius: 10px;
   margin: 0 1rem;
+  box-shadow: 0 4px 8px 0 rgba(99, 99, 99, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar .navbar-nav a:hover {
