@@ -51,13 +51,6 @@ body {
   z-index: 9999;
 }
 
-.navbar-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-}
-
 .navbar .navbar-nav a {
   display: inline-block;
   font-size: 1.3rem;
